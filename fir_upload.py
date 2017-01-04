@@ -9,8 +9,8 @@ changelog = input('log:')
 fir_url = "http://api.fir.im/apps"
 headers = {"Content-Type": "application/json"}
 body = {"type":"ios",
-        "bundle_id":"com.ShanghaiYG-MGIS",
-        "api_token":"44018a977fe5d14384e5f598497f5d72",
+        "bundle_id":"",
+        "api_token":"",
         }
 rsp = requests.post(fir_url,headers = headers,json=body)
 
